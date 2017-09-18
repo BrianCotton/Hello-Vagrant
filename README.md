@@ -1,3 +1,5 @@
 # Hello-Vagrant
 Testing Vagrant Configs
-Hello, my name is Brian Cotton. I'm a RHCSA working as an administrator at one of the top CRO's in the world.
+This repository is for configuring a Ubuntu webserver using nginx.
+The Vagrant file will automatically update server, and configure and enable nginx.
+The file will also start port forwarding of port 80 from guest to port 8080 on your host machine.
